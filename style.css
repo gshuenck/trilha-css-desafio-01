@@ -1,0 +1,160 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .banner {
+    background: url('assets/images/banner-background.png') no-repeat center center/cover;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .banner-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .logo img {
+    max-width: 150px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  #course-content {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #course-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #course-content p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+  }
+  
+  .modules-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .module {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .module span {
+    font-weight: bold;
+  }
+  
+  #transform-world {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #transform-world img {
+    width: 1150px;
+    height: 363px;
+    top: 1138px;
+    gap: 0px;
+    border: 1px 1px 1px 0px;
+    opacity: 0px;
+    
+  }
+  
+  #transform-world p {
+    position: absolute;
+    top: 50%; 
+    left: 20px; 
+    transform: translateY(-50%); 
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  }
+  
+  #professional-challenges {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #professional-challenges img {
+    max-width: 600px;
+    margin: 20px 0;
+  }
+  
+  #professional-challenges p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 30px 20px;
+  }
+  
+  footer img.dio-logo {
+    max-width: 100px;
+  }
+  
+  footer p {
+    margin-top: 10px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
